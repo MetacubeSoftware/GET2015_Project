@@ -1,0 +1,80 @@
+body{
+	background:url('../images/background1.jpg') no-repeat center center fixed;
+	background-size:cover;
+	position: relative; 
+}
+
+.navbar{
+	background-color:rgba(0,0,0,0.1);
+	font-size: 20px; 
+	border: none;
+}
+
+.navbar-default .navbar-brand {
+     color: #f2f2f2; 
+}
+
+.navbar-default .navbar-nav>li>a:hover ,.navbar-default .navbar-nav>li>a:focus {
+    color: #f2f2f2;
+}
+
+.modal {
+	overflow-y:hidden; 
+}
+
+.navbar-brand,.navbar-header,.navbar-brand:hover,.navbar-header:hover {
+	color: #ffffff;
+	font-size: 30px;
+	font-family:'Philosopher',sans-serif; 
+	margin-left: 2%;
+}
+
+.nav .navbar-nav .navbar-right .right li a {
+	color: #ffffff;
+}
+
+
+
+.signup_modal_footer,.login_modal_footer {
+	margin-top:5px;
+}
+
+
+
+.signup_modal_header .modal-title,.login_modal_header .modal-title {
+	text-align: center;font-family:'Philosopher',sans-serif; 
+}
+
+.signup-modal,.login-modal{
+    width:100%;
+    padding-bottom:20px;
+}
+
+.signup_modal_header, .signup_modal_footer,.login_modal_header, .login_modal_footer  {
+	background: rgba(250,250,250,1);
+}
+
+
+.center-line{
+	margin-top:2%;
+	font-size:20px;
+}
+
+.modal {
+	margin-top:100px;
+}
+
+footer{
+	width:100%;
+	height:10%;
+	padding-top:2%;
+	padding-bottom:2%;
+	background-color:rgba(0,0,0,0.5);
+	text-align:center;
+	color: white;
+}
+
+
+
+
+

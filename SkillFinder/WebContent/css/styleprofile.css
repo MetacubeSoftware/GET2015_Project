@@ -1,0 +1,53 @@
+
+
+.containermiddle {
+	height:100%;
+	width:80%;
+	margin-top:10%;
+	margin-bottom:10%;
+	padding:10%;
+	background-color:#ffffff;
+}
+
+.sectionbody{
+	margin-top:10px;
+	border: 1px solid black;
+	padding: 1%;
+}
+
+.profilelabel {
+	font-size:10%;
+}
+textarea{
+	margin-top:0%;
+}
+
+.heading {
+	border: 2px solid black;
+	padding:1%;
+	color:#fffff;
+}
+
+label,.form-control {
+	margin-top:2%;
+}
+
+.textarea {
+	margin-top:1%;
+}
+
+form {
+	padding: 3%;
+}
+
+a:hover,a:focus {
+	text-decoration:none;
+}
+
+
+
+
+
+
+
+
