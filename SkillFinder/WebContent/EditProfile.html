@@ -56,6 +56,34 @@
     </div>
     </div>
 	<div class="container containermiddle">
+	
+		<div class="row profile">
+				<div class="col-lg-2 col-md-2 col-sm-2 col-xs-4">
+					<img alt="" src="images/bpprofile.JPG" height=100%; width=100%;>
+				</div>
+				<div class="col-lg-10 col-md-10 col-sm-10 col-xs-12">
+					<form action="#" >
+						<div class="form-group">
+							<div class="row">
+								<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12  ">
+									<label class="">Babalu Patidar </label>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-lg-5 col-md-5 col-sm-6 col-xs-12  ">
+									<input class="" type="file" name="profilepic"
+										id="profilepic"  accept="image/gif, image/jpeg">
+								</div>
+								<div class="col-lg-2 col-md-2 col-sm-3 col-xs-6  ">
+									<input type="submit" id="contactdetailsave" value="Save"
+										class="btn-primary form-control btn btn-default ">
+								</div>
+								
+							</div>
+						</div>
+					</form>
+				</div>
+		</div>
 		<div class="panel-group" id="accordion">
 			<div class="panel panel-default">
 				<div class="panel-heading">
@@ -111,7 +139,7 @@
 									<label class="">Status </label>
 								</div>
 								<div class="col-lg-4 col-md-4 col-sm-8 col-xs-12  ">
-									<input class="form-control" type="text" name="Status"
+									<input class="form-control" type="text" name="status"
 										id="status">
 								</div>
 								<div class="col-lg-2 col-md-2 col-sm-4 col-xs-12  ">
@@ -134,6 +162,8 @@
 					</form>
 				</div>
 			</div>
+			
+			
 			
 			<div class="panel panel-default">
 				<div class="panel-heading">
@@ -182,6 +212,68 @@
 									<input class="form-control" type="number" name="pincode"
 										id="pincode">
 								</div>
+							</div>
+
+
+							<div class="row">
+								<div class="col-lg-2 col-md-2 col-sm-4 col-xs-12"></div>
+								<div class="col-lg-2 col-md-2 col-sm-4 col-xs-12">
+									<input type="submit" id="personaldetailsave" value="Save"
+										class="btn-primary form-control btn btn-default ">
+								</div>
+							</div>	
+					</div>
+						
+					</form>
+					</div>
+					
+			</div>
+			
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h4 class="panel-title">
+						<a data-toggle="collapse" data-parent="#accordion"
+							href="#professionaldetails">Professinal Details</a>
+					</h4>
+				</div>
+				<div id="professionaldetails" class="panel-collapse collapse">
+					<form action="#">
+
+						<div class="form-group">
+							<div class="row">
+							
+								<div class="col-lg-2 col-md-2 col-sm-4 col-xs-12 ">
+									<label class="">Department </label>
+								</div>
+								<div class="col-lg-4 col-md-4 col-sm-8 col-xs-12  ">
+									<input class="form-control" type="text" name="department"
+										id="department">
+								</div>
+								<div class="col-lg-2 col-md-2 col-sm-4 col-xs-12 ">
+									<label class="">Post </label>
+								</div>
+								<div class="col-lg-4 col-md-4 col-sm-8 col-xs-12  ">
+									<input class="form-control" type="text" name="post"
+										id="post">
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-lg-2 col-md-2 col-sm-4 col-xs-12 ">
+									<label class="">Professional Headline </label>
+								</div>
+								<div class="col-lg-4 col-md-4 col-sm-8 col-xs-12  ">
+									<input class="form-control" type="text" name="professionalheadline"
+										id="professionalheadline">
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-lg-2 col-md-2 col-sm-4 col-xs-12 ">
+									<label class="">Professional Summary </label>
+								</div>
+								<div class="col-lg-10 col-md-10 col-sm-8 col-xs-12  ">
+									<textarea class="form-control textarea" ></textarea>
+								</div>
+								
 							</div>
 
 
@@ -263,8 +355,12 @@
 							<div class="row">
 								<div class="col-lg-2 col-md-2 col-sm-4 col-xs-12"></div>
 								<div class="col-lg-2 col-md-2 col-sm-4 col-xs-12">
-									<input type="submit" id="Experiencesave" value="Save"
+									<input type="submit" id="experiencesave" value="Save"
 										class="btn-primary form-control btn btn-default ">
+								</div>
+								<div class="col-lg-2 col-md-2 col-sm-4 col-xs-12">
+									<input type="button" id="experiencedelete" value="Delete"
+										class="btn-danger form-control btn btn-default ">
 								</div>
 							</div>
 
@@ -320,8 +416,12 @@
 							<div class="row">
 								<div class="col-lg-2 col-md-2 col-sm-4 col-xs-12"></div>
 								<div class="col-lg-2 col-md-2 col-sm-4 col-xs-12">
-									<input type="submit" id="Experiencesave" value="Save"
+									<input type="submit" id="qualificationsave" value="Save"
 										class="btn-primary form-control btn btn-default ">
+								</div>
+								<div class="col-lg-2 col-md-2 col-sm-4 col-xs-12">
+									<input type="button" id="qualificationdelete" value="Delete"
+										class="btn-danger form-control btn btn-default ">
 								</div>
 							</div>
 
@@ -358,6 +458,8 @@
 									<input class="form-control" type="text" name="issueauthority"
 										id="issueauthority">
 								</div>
+							</div>
+							<div class="row">
 								<div class="col-lg-2 col-md-2 col-sm-4 col-xs-12 ">
 									<label class="">Issue Date </label>
 								</div>
@@ -374,6 +476,10 @@
 								<div class="col-lg-2 col-md-2 col-sm-4 col-xs-12">
 									<input type="submit" id="certificatesave" value="Save"
 										class="btn-primary form-control btn btn-default ">
+								</div>
+								<div class="col-lg-2 col-md-2 col-sm-4 col-xs-12">
+									<input type="button" id="certificatedelete" value="Delete"
+										class="btn-danger form-control btn btn-default ">
 								</div>
 							</div>	
 					</div>
