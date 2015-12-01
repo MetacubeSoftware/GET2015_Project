@@ -1,5 +1,5 @@
 body{
-	background:url('../images/background1.jpg') no-repeat center center fixed;
+	background:url('../images/background9.jpg') no-repeat center center fixed;
 	background-size:cover;
 }
 
@@ -42,7 +42,7 @@ body{
 }
     
 .navbar-nav li a{
-   color:#586160;
+   color:#CEA359;
 }
 
 
@@ -69,7 +69,7 @@ body{
 
 .connectionheader {
 	border: 1px solid black;
-	background-color: #adc1eb;
+	background-color: #C39D88;
 }
 
 .peopleheader {
